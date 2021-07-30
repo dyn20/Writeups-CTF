@@ -69,8 +69,9 @@
   Sử dụng Burp Intruder chọn payload cho biến thứ nhất chạy từ 6 đến 32 biến thứ 2 cho kí tự mình nghĩ có thể có trong flag
   (alphabet, number,_,...) thì cuối cùng sẽ tìm được tất cả các kí tự trong `flag`.
 
-##Destructoid:
+## Destructoid:
   Đối với bài này mình đã tham khảo một số writeup của các bạn/anh nhưng mình vẫn viết lại writeup theo những gì mà mình đã hiểu được, để có thể ghi nhớ và nếu cần có thể tham   khảo lại.
+  
   **Dạng bài: object injection**
 
   ![](Images/h12.png)
@@ -86,8 +87,11 @@
   **Phân tích những điều kiện để có được `flag`:**
 
   `__destruct` được gọi và thực hiên in `flag`: `$this.cleanup = 'flag'` hoặc `'nonelfag'`, `$printflag=true`
+  
   Để `$printflag=true` thì `__toString` của Y phải được gọi -> cần phải thực hiện `echo` một object Y -> `__wakeup` của Y phải được gọi.
+  
   Để `__wakeup` được gọi thì phải thực hiện `unserialize` một object Y.
+  
   Đầu tiên mình thử với `new Y( new X('flag'))` nhưng không thành công:
 
   ![](Images/h14.png)
@@ -105,6 +109,9 @@
   ![](Images/h17.png)
 
   ![](Images/h18.png)
+  
+  ## Thank you for being here!
+  # End
 
 
 
