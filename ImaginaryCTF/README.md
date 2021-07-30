@@ -1,10 +1,12 @@
 # ImaginaryCTF-2021
 ## RooS World:
   View page source lên thì thấy có một đoạn Javascript
+  
   ![](Images/h1.png)
 
   Đây là JSFuck 
   Mình sử dụng một tool online để chuyển JSFuck này về Javascript thông thường để dễ hiểu:
+  
   ![](Images/h2.png)
 
   Base64 decode chuỗi trên ta được `flag`
