@@ -61,7 +61,7 @@
   
   Mình sử dụng Burp để thực hiện brute force tìm độ dài của `password`  thì được kết quả là 33 tiếp theo sẽ tìm từng kí tự với hàm `substr()`
   
-  Payload tìm length: `username=' or length(paassswoorrd)=1--&pass=''` (mình thử từ 1 đến 50 bằng Burp Intruder)
+  Payload tìm length: `username=' oorr length(paassswoorrd)=1--&pass=''` (mình thử từ 1 đến 50 bằng Burp Intruder)
   
   Nếu như `password` là `flag` thì nó sẽ có dạng `ictf{...}` nên mình chỉ cần tìm từ kí tự thứ 6 đến 32:
 
