@@ -35,6 +35,7 @@
   ![](Images/h7.png)
  
    Sau khi đọc file sourse cung cấp thì dạng bài này chính là sqli
+   
    Hiểu đơn giản thì nếu chúng ta login thất bại thì sẽ show ra `Error`, ngược lại sẽ render ra một trang `user.html`
    
    Nhìn vào blacklist chủa bài này có vẻ hầu hết các từ cần thiết đều bị filter, nhưng chúng ta hoàn toàn có thể bypass được bằng 
