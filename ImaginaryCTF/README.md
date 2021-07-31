@@ -28,7 +28,7 @@
   ![](Images/h5.png)
 
    **ictf{:roocu:roocu:roocu:roocu:roocu:roocursion:rsion:rsion:rsion:rsion:rsion:_473fc2d1}**
-## Awkward_bypass
+## Awkward_by
 
   ![](Images/h6.png)
 
@@ -69,6 +69,24 @@
 
   Sử dụng Burp Intruder chọn payload cho biến thứ nhất chạy từ 6 đến 32 biến thứ 2 cho kí tự mình nghĩ có thể có trong flag
   (alphabet, number,_,...) thì cuối cùng sẽ tìm được tất cả các kí tự trong `flag`.
+  
+## Buid-A_Website
+  Dạng bài: SSTI
+  
+  Vì mình lỡ Shift+Delete file code của bài này trước khi viết writeup nên mình không có file code để show ra
+  
+  Nhưng sau giải khi mình vào thử link chal thì mình thấy vẫn được mở, nếu mọi người quan tâm có thể vào link này để vọc:
+  https://build-a-website.chal.imaginaryctf.org/
+  
+  Thử với payload: `{{url_for.__globals.__.__builtins__.open("flag.txt").read()}}`
+  
+  Nhưng trong bài này từ `bal` bị filter nên chúng ta cần phải thay đổi payload một tí thành:
+  
+  `{{url_for["__globa""ls__"].__builtins__.open("flag.txt").read()}}`
+  
+  ![](Images/h19.png)
+  
+  ![](Images/h20.png)
 
 ## Destructoid:
   Đối với bài này mình đã tham khảo một số writeup của các bạn/anh nhưng mình vẫn viết lại writeup theo những gì mà mình đã hiểu được, để có thể ghi nhớ và nếu cần có thể tham   khảo lại.
@@ -110,6 +128,7 @@
   ![](Images/h17.png)
 
   ![](Images/h18.png)
+  
   
   ## Thank you for being here!
   # End
