@@ -28,7 +28,7 @@
   ![](Images/h5.png)
 
    **ictf{:roocu:roocu:roocu:roocu:roocu:roocursion:rsion:rsion:rsion:rsion:rsion:_473fc2d1}**
-## Awkward_by
+## Awkward_bypass
 
   ![](Images/h6.png)
 
