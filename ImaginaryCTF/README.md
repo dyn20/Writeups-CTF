@@ -78,7 +78,7 @@
   Nhưng sau giải khi mình vào thử link chal thì mình thấy vẫn được mở, nếu mọi người quan tâm có thể vào link này để vọc:
   https://build-a-website.chal.imaginaryctf.org/
   
-  Thử với payload: `{{url_for.__globals.__.__builtins__.open("flag.txt").read()}}`
+  Thử với payload: `{{url_for.__globals__.__builtins__.open("flag.txt").read()}}`
   
   Nhưng trong bài này từ `bal` bị filter nên chúng ta cần phải thay đổi payload một tí thành:
   
