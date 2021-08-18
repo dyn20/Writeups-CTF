@@ -46,8 +46,10 @@ Có một điều lưu ý ở đây là flag chúng ta được nằm trong `/fl
 
 Rồi đến đây là chúng ta chỉ cần truyền vào là {..{/flag.txt}..} thì sẽ lấy được flag, nhưng data sẽ nằm ở dạng base64 decode nên chúng ta cần phải decode để lấy được flag.
 
-![views.py](img5.png)
+![](img6.png)
 
 #### Flag: ractf{dj4ng0_lfi}
 
+## End
+### Thank you for being here!
 
