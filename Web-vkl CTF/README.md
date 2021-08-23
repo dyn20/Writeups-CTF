@@ -125,7 +125,7 @@ Nhưng mình sẽ nói sơ về ý tưởng thực hiện:
 
 Mình sử dụng payload để liệt kê ra tất cả các method và dễ dàng tìm chính xác vị trí của `request`
 ```
-{% for i in url_for.__globa""ls__ %}{{i}}{% endfor %}
+{% for i in url_for.__globals__ %}{{i}}{% endfor %}
 
 ```
 Ví dụ vị trí của method là 7 thì mình sẽ sử dụng:
