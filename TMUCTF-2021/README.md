@@ -30,7 +30,7 @@ Sau một vài lần thử thì mình có thể biết được: các kí tự: 
 
 * `__` có thể được thay thế bằng `\x5f\x5f`
 
-*`.` và `[` có thể sử dụng `|attr để thay thế`
+* `.` và `[` có thể sử dụng `|attr để thay thế`
  
  Hiển thị tất cả class:
  ```
