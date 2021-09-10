@@ -15,7 +15,7 @@ if (isset($_GET["password"])) {
 
 Bài này thực hiện so sánh password do chúng ta nhập với md5 hash của nó. Nếu như kết quả giống nhau thì sẽ echo ra flag.
 
-Lợi dụng Loose comparation trong PHP để giải quyết vấn đề này.
+Lợi dụng Loose comparison trong PHP để giải quyết vấn đề này.
 
 password: 0e215962017
 
