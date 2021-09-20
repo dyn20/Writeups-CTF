@@ -90,7 +90,6 @@ if(isset($_POST["notewrite"]))
 ?>
 ```
 - List file in /:
-With some words we can use the same way with programmers hate programming to bypass, but others like `cat, ls,..` We can see str_replace is used and replacing does not do one time, so we can use the this way.
 We can use `\` to notify that the command doesn't finish. By this way we will have full command:
 ```
   <<??php
