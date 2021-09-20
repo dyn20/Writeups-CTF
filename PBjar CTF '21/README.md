@@ -52,7 +52,7 @@ oke, generate payload to find and get flag:
 ### Flag: flag{server_side_php_xss_is_less_known_but_considering_almost_80%_of_websites_use_php_it_is_good_to_know_thank_me_later_i_dont_want_to_stop_typing_this_flagg_is_getting_long_but_i_feel_like_we're_developing_a_really_meaningful_connection}
   
 ## Programmers hate programming 2
-The idea is same with Programmers hate programming but more words is filtered:
+The idea is same with Programmers hate programming but more words are filtered:
 ```
 <?php
 if(isset($_POST["notewrite"]))
@@ -113,7 +113,7 @@ First, I think popular username for admin maybe is admin, and what is popular pa
 
 Finally, I find out the password is `admin`, lol.
 
-I we still can't get the flag:
+I still can't get the flag:
 
 ![](img3.png)
 
