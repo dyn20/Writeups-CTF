@@ -7,5 +7,5 @@ I'm just a newbie learn how to play CTF so I am very happy to receive any advice
 
 I mainly focus on web so most of my challenges are web challenges.
 
-Hope it will be helpful for you.
+Hope it will be useful for you.
 ## Thank you.
