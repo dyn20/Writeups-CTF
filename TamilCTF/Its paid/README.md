@@ -35,4 +35,4 @@ But we haven't gotten flag yet, they say "Only special persons can see this". Ch
 
 ![](img4.png)
 
-## _Thank you for your being here!_
+## _Thank you for your reading!_
