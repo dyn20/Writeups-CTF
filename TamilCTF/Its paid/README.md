@@ -1,11 +1,11 @@
 # Category: Web 
 #### _My English is bad. I'm sorry if it confuses you while reading my writeup._
 
-In this challenge, you can see a page sells course, you don't have money and you can't by any course.
+In this challenge, there is a web sells courses, you don't have money so you can't buy any course.
 
 ![](img1.png)
 
-But when you by a course, you can edit its price to 0 and you can by any course you want.
+But when you buy a course, you can edit its price to 0 and you can by any course you want.
 
 ![](img2.png)
 
