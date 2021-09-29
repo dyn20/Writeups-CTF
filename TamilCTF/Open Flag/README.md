@@ -8,29 +8,30 @@ With any input, you will receive a page with the information about flag's locati
 
 ![](img1.png)
 
-View source and take a look to comment part, you will see that, it renders you username. So what can we do?
+View source and take a look to comment part, you will see that, it renders your username. So what can we do?
 
 With my experience, maybe username input has a vulnerability name ssti.
 
-Let try with payload {{1+1}}
+Let try with payload `{{1+1}}`
 
 ![](img2.png)
 
 oh, We get `hello 2`
 
-No doubt, it's ssti
+No doubt, it's ssti.
 
-This is a basic ssti challenge, no filter here. You can easily find payload for this challenge
+This is a basic ssti challenge, no filtered word here. You can easily find payload for this challenge.
 
 Here is my payload, you can refer it:
 
 ```
 {{url_for.__globals__.__builtins__.open("flag.jpg","rb").read()}}
 ```
-__*Note that you must be read file in binary mode, because this is jpg file__
+_* Note that you must be read file in binary mode, because this is jpg file_
 
 After reading file, let convert the data we read back to jpg file:
-__*Remember that data you receive is HTML encoded data, you must decode it first.__
+
+_* Remember that data you receive is HTML encoded data, you must decode it first._
 
 ![](img3.png)
 
