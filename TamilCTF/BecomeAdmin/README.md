@@ -20,7 +20,7 @@ You will be redirected to a page with path is `/flagishere`. In this page, you c
 
 ![](img4.png)
 
-Click `Lost your password` you will get a page to reset password, Enter email with value `admin@tamilctf.com`, and the response to `password reset link is sent to your mail`.
+Click `Lost your password` you will get a page to reset password, Enter email with value `admin@tamilctf.com`, and the response is `password reset link is sent to your mail`.
 
 Try to view source: You will see a comment with content: "The admin has set some automated scripts to open any links that comes to his mail"
 
