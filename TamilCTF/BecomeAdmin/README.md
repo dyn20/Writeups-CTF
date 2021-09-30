@@ -2,7 +2,7 @@
 
 ![](img1.png)
 
-They said that noway to register, I try to login in login page. Of course it's not success but I get the path : `/account/login`
+They said that noway to register, I try to login in login page. Of course it's not successful but I get the path : `/account/login`
 
 Try to change the path to `/account/register` and I get register page:
 
@@ -14,9 +14,9 @@ After login you will receive message: 'Congratulations on successfull Admin logi
 
 ![](img3.png)
 
-Try to click Click me to get flag, but no flag for you. Just a joke.
+Try to click `Click me to get flag`, but no flag for you. Just a joke.
 
-You will be redirected to a page with path is `/flagishere`. In this page, you can login and maybe a choice to reset your password if you lost it. 
+You will be redirected to a page with path is `/flagishere`. In this page, you can login and choose to reset your password if you lost it. 
 
 ![](img4.png)
 
@@ -38,7 +38,7 @@ Go to `/resetpassword` path with token parameter, you can create new password:
 
 ![](img7.png)
 
-After reset password you wil login with admin successfully again. They said that flag is sent. But where is flag? :'(
+After reset password you will login with admin successfully again. They said that flag is sent. But where is flag? :'(
 
 I spend much time to find flag, finally I found it is in response header, lol.
 
