@@ -36,7 +36,7 @@ Check my site and I receive the token:
 
 Go to `/resetpassword` path with token parameter, you can create new password:
 
-![](img7.png)
+![](img5.png)
 
 After reset password you will login with admin successfully again. They said that flag is sent. But where is flag? :'(
 
