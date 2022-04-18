@@ -193,7 +193,7 @@ while True:
 # EzChall + EzChall Again
 *Note: I solve them after the CTF*
 
-While the CTF is running, I stuck in comparing password. So I cann't solve these challenges. I solve it after read hint in discord.
+While the CTF is running, I stuck in comparing passwd. So I cann't solve these challenges. I solve them after read hint in discord.
 
 Payload: 
 ```
